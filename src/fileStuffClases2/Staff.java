@@ -1,4 +1,4 @@
-package fileStuff2Clases;
+package fileStuffClases2;
 
 import java.io.Serializable;
 

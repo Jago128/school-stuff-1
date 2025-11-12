@@ -1,4 +1,4 @@
-package fileStuff2Clases;
+package fileStuffClases2;
 
 public class Mecanico extends Staff {
 	private static final long serialVersionUID = 1L;

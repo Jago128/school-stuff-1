@@ -1,9 +1,9 @@
-package fileStuff2Main;
+package fileStuffMain2;
 
 import java.io.*;
 import java.util.*;
 
-import fileStuff2Clases.*;
+import fileStuffClases2.*;
 import utilidades.Utilidades;
 
 public class Main {

@@ -1,4 +1,4 @@
-package fileStuffExceptions;
+package arrayListFileStuffExceptions;
 
 public class IncorrectEmailFormatException extends Exception {
 	private static final long serialVersionUID = 1L;

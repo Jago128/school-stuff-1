@@ -1,4 +1,4 @@
-package fileStuffClases;
+package arrayListFileStuffClases;
 
 public enum Tipo {
 	CONTACTO, TUTOR

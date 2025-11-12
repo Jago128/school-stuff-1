@@ -1,4 +1,4 @@
-package fileStuffClases;
+package arrayListFileStuffClases;
 
 public class EmpresaValoracion {
 	private int valoracion;

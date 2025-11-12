@@ -1,4 +1,4 @@
-package fileStuffClases;
+package arrayListFileStuffClases;
 
 public class Trabajador extends Agente {
 	private String post;

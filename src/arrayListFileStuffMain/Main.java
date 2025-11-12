@@ -1,4 +1,4 @@
-package fileStuffMain;
+package arrayListFileStuffMain;
 
 import java.io.*;
 import java.time.LocalDate;
@@ -7,8 +7,8 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.regex.*;
 
-import fileStuffClases.*;
-import fileStuffExceptions.IncorrectEmailFormatException;
+import arrayListFileStuffClases.*;
+import arrayListFileStuffExceptions.IncorrectEmailFormatException;
 import utilidades.*;
 
 public class Main {
