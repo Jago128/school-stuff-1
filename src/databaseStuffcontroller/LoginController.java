@@ -1,0 +1,35 @@
+package databaseStuffcontroller;
+
+import java.util.Map;
+
+import databaseStuffModel.*;
+import databaseStuffWindows.LoginWindow;
+
+public class LoginController {
+	UsuarioDAO dao = new DBImplementation();
+
+	public void visualizarPantalla() {
+		LoginWindow ven = new LoginWindow(this);
+		ven.setVisible(true);
+	}
+
+	public boolean comprobarUsuario(Usuario usuario) {
+		return dao.comprobarUsuario(usuario);
+	}
+
+	public boolean insertarUsuario(Usuario usuario) {
+		return dao.insertarUsuario(usuario);
+	}
+
+	public Map<String, Usuario> mostrar() {
+		return dao.mostrar();
+	}
+
+	public boolean update(Usuario usuario) {
+		return dao.update(usuario);
+	}
+
+	public boolean delete(String nom) {
+		return dao.delete(nom);
+	}
+}
