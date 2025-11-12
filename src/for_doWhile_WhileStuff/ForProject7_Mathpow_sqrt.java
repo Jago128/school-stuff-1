@@ -91,5 +91,4 @@ public class ForProject7_Mathpow_sqrt {
 		}
 		sc.close();
 	}
-
 }

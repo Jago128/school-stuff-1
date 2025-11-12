@@ -26,5 +26,4 @@ public class ForProject10 {
 		}
 		sc.close();
 	}
-
 }

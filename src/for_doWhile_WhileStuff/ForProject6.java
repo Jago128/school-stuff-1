@@ -55,5 +55,4 @@ public class ForProject6 {
 		sc.close();
 
 	}
-
 }

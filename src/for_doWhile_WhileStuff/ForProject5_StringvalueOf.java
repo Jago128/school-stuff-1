@@ -17,5 +17,4 @@ public class ForProject5_StringvalueOf {
 		System.out.println("El numero " + count + " tiene " + length + " digitos.");
 		sc.close();
 	}
-
 }

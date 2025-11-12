@@ -22,5 +22,4 @@ public class DoWhileProject4 {
 		System.out.println("\nResultado: " + i);
 		teclado.close();
 	}
-
 }
