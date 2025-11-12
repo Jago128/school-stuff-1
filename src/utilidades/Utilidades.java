@@ -1,4 +1,3 @@
-/* Actualizado a 09/12/2024 por Ekaitz Campo*/
 package utilidades;
 import java.io.BufferedReader;
 import java.io.EOFException;
@@ -370,7 +369,6 @@ public class Utilidades {
 		return num;
 	}
 
-	//Lee un numero(double) entre el rango dado y lo devuelve
 	public static double leerDouble(double min, double max) {
 		double num = 0;
 		boolean error;
@@ -392,7 +390,6 @@ public class Utilidades {
 		return num;
 	}
 
-	//Muestra el mensaje y luego lee el numero(double) introducido si es entre los valores y lo devuelve
 	public static double leerDouble(String message, double min, double max) { 
 		double num = 0;
 		boolean error;

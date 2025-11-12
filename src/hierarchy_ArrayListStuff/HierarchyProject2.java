@@ -201,7 +201,7 @@ public class HierarchyProject2 {
 			case 0:
 				introducir(a, teclado);
 				break;
-				
+
 			case 1:
 				if (!a.isEmpty()) {
 					mostrarTodos(a);
@@ -209,7 +209,7 @@ public class HierarchyProject2 {
 					System.out.println("Debe introducir primero.");
 				}
 				break;
-				
+
 			case 2:
 				if (!a.isEmpty()) {
 					mostrarJefes(a);
@@ -217,7 +217,7 @@ public class HierarchyProject2 {
 					System.out.println("Debe introducir primero.");
 				}
 				break;
-				
+
 			case 3:
 				if (!a.isEmpty()) {
 					mostrarJefesDep(a, teclado);
@@ -225,7 +225,7 @@ public class HierarchyProject2 {
 					System.out.println("Debe introducir primero.");
 				}
 				break;
-				
+
 			case 4:
 				if (!a.isEmpty()) {
 					buscarNom(a, teclado);
@@ -233,7 +233,7 @@ public class HierarchyProject2 {
 					System.out.println("Debe introducir primero.");
 				}
 				break;
-				
+
 			case 5:
 				if (!a.isEmpty()) {
 					salario_min(a, teclado);
@@ -241,7 +241,7 @@ public class HierarchyProject2 {
 					System.out.println("Debe introducir primero.");
 				}
 				break;
-				
+
 			case 6:
 				if (!a.isEmpty()) {
 					anios_min(a, teclado);
@@ -249,7 +249,7 @@ public class HierarchyProject2 {
 					System.out.println("Debe introducir primero.");
 				}
 				break;
-				
+
 			case 7:
 				if (!a.isEmpty()) {
 					eliminar(a, teclado);
@@ -257,11 +257,11 @@ public class HierarchyProject2 {
 					System.out.println("Debe introducir primero.");
 				}
 				break;
-				
+
 			case 8:
 				System.out.println("Agur");
 				break;
-				
+
 			default:
 				System.out.println("Esa op no esta");
 			}
