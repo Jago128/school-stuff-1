@@ -1,14 +1,15 @@
-package hierarchy_ArrayListStuff;
+package hierarchy_ArrayListStuffClasses;
+
 import java.time.LocalDate;
 
 public class Libro extends Publicacion {
 	private String ISBN;
 	private boolean prized;
-	
+
 	public Libro(LocalDate d, String t, String i, boolean p) {
-		super(d,t);
-		this.ISBN=i;
-		this.prized=p;
+		super(d, t);
+		this.ISBN = i;
+		this.prized = p;
 	}
 
 	public String getISBN() {
@@ -18,7 +19,7 @@ public class Libro extends Publicacion {
 	public void setISBN(String iSBN) {
 		ISBN = iSBN;
 	}
-	
+
 	public boolean isPrized() {
 		return prized;
 	}

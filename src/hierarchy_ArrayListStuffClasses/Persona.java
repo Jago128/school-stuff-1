@@ -1,18 +1,18 @@
-package hierarchy_ArrayListStuff;
+package hierarchy_ArrayListStuffClasses;
 
 public class Persona {
 	protected String dni;
 	protected String nombre;
-	protected static int contador=0;
-	
+	public static int contador = 0;
+
 	public Persona() {
-		this.dni="";
-		this.nombre="";
+		this.dni = "";
+		this.nombre = "";
 	}
-	
+
 	public Persona(String d, String n) {
-		this.dni=d;
-		this.nombre=n;
+		this.dni = d;
+		this.nombre = n;
 	}
 
 	public String getDni() {
@@ -30,14 +30,14 @@ public class Persona {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	
+
 	public void visualizar() {
-		System.out.println("DNI: "+this.dni);
-		System.out.println("Nombre: "+this.nombre);
+		System.out.println("DNI: " + this.dni);
+		System.out.println("Nombre: " + this.nombre);
 	}
 
 	@Override
 	public String toString() {
-		return "Persona [dni=" +dni+ ", nombre=" +nombre+ "";
+		return "Persona [dni=" + dni + ", nombre=" + nombre + "";
 	}
 }

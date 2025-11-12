@@ -6,21 +6,21 @@ public class NaveEspacial {
 	private int launchYear;
 	private int capacity;
 	private int necessaryCap;
-	
+
 	public NaveEspacial() {
-		this.name="";
-		this.creationYear=0;
-		this.launchYear=0;
-		this.capacity=0;
-		this.necessaryCap=0;
+		this.name = "";
+		this.creationYear = 0;
+		this.launchYear = 0;
+		this.capacity = 0;
+		this.necessaryCap = 0;
 	}
-	
+
 	public NaveEspacial(String n, int c, int l, int cap, int rq) {
-		this.name=n;
-		this.creationYear=c;
-		this.launchYear=l;
-		this.capacity=cap;
-		this.necessaryCap=rq;
+		this.name = n;
+		this.creationYear = c;
+		this.launchYear = l;
+		this.capacity = cap;
+		this.necessaryCap = rq;
 	}
 
 	public String getName() {
@@ -65,19 +65,21 @@ public class NaveEspacial {
 
 	@Override
 	public String toString() {
-		return "Nave Espacial: "+name+", Año de Creacion: "+creationYear+", Año de Lanzamiento: "+launchYear+", Capacidad total: "+capacity+", Tripulantes Necesarios: "+necessaryCap+"";
+		return "Nave Espacial: " + name + ", Año de Creacion: " + creationYear + ", Año de Lanzamiento: " + launchYear
+				+ ", Capacidad total: " + capacity + ", Tripulantes Necesarios: " + necessaryCap + "";
 	}
-	
+
 	public int calcularAntiguedad(int anioActual) {
-		return anioActual-creationYear;
+		return anioActual - creationYear;
 	}
-	
+
 	public boolean admitePasajeros() {
-		int cap=capacity-necessaryCap;
-		if (cap>0) {
+		int cap = capacity - necessaryCap;
+		
+		if (cap > 0) {
 			return true;
 		}
+		
 		return false;
 	}
-	
 }

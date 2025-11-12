@@ -1,13 +1,14 @@
-package hierarchy_ArrayListStuff;
+package hierarchy_ArrayListStuffClasses;
+
 import java.time.LocalDate;
 
 public class Publicacion {
 	protected LocalDate date;
 	protected String title;
-	
+
 	public Publicacion(LocalDate d, String t) {
-		this.date=d;
-		this.title=t;
+		this.date = d;
+		this.title = t;
 	}
 
 	public LocalDate getDate() {

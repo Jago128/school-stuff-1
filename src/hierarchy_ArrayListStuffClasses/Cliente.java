@@ -1,21 +1,21 @@
-package hierarchy_ArrayListStuff;
+package hierarchy_ArrayListStuffClasses;
 
 public class Cliente extends Persona {
 	private int edad;
-	
+
 	public Cliente() {
 		super();
-		this.edad=0;
+		this.edad = 0;
 	}
-	
+
 	public Cliente(int e) {
 		super();
-		this.edad=e;
+		this.edad = e;
 	}
-	
-	public Cliente (String d, String n, int e) {
-		super(d,n);
-		this.edad=e;
+
+	public Cliente(String d, String n, int e) {
+		super(d, n);
+		this.edad = e;
 	}
 
 	public int getEdad() {
@@ -28,11 +28,11 @@ public class Cliente extends Persona {
 
 	@Override
 	public String toString() {
-		return super.toString()+"edad=" +edad+"]";
+		return super.toString() + "edad=" + edad + "]";
 	}
-	
+
 	public void visualizar() {
 		super.visualizar();
-		System.out.println("Edad: "+this.edad);
+		System.out.println("Edad: " + this.edad);
 	}
 }

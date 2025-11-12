@@ -1,17 +1,18 @@
-package hierarchy_ArrayListStuff;
+package hierarchy_ArrayListStuffClasses;
+
 import java.util.ArrayList;
 
 public class Profesor implements Comparable<Profesor> {
 	private String email;
 	private String name;
 	private String dept;
-	private ArrayList <Publicacion> p;
-	
-	public Profesor(String e, String n, String d, ArrayList <Publicacion> p) {
-		this.email=e;
-		this.name=n;
-		this.dept=d;
-		this.p=p;
+	private ArrayList<Publicacion> p;
+
+	public Profesor(String e, String n, String d, ArrayList<Publicacion> p) {
+		this.email = e;
+		this.name = n;
+		this.dept = d;
+		this.p = p;
 	}
 
 	public String getEmail() {
@@ -37,7 +38,7 @@ public class Profesor implements Comparable<Profesor> {
 	public void setDept(String dept) {
 		this.dept = dept;
 	}
-	
+
 	public ArrayList<Publicacion> getP() {
 		return p;
 	}
@@ -45,7 +46,7 @@ public class Profesor implements Comparable<Profesor> {
 	public void setP(ArrayList<Publicacion> p) {
 		this.p = p;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Profesor [email=" + email + ", name=" + name + ", dept=" + dept + "]";
