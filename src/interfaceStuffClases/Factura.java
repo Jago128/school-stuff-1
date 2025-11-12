@@ -1,8 +1,8 @@
-package p9Clases;
+package interfaceStuffClases;
 
 import java.util.ArrayList;
 
-import p9Interfaces.Facturacion;
+import interfaceStuffInterfaces.Facturacion;
 
 public class Factura implements Facturacion {
 	private int num;

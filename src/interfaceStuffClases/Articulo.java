@@ -1,6 +1,6 @@
-package p9Clases;
+package interfaceStuffClases;
 
-import p9Exception.NegativeStockException;
+import interfaceStuffException.NegativeStockException;
 
 public abstract class Articulo {
 	protected String code;

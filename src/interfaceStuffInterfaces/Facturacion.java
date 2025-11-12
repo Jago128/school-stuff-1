@@ -1,4 +1,4 @@
-package p9Interfaces;
+package interfaceStuffInterfaces;
 
 public interface Facturacion {
 	static final double IVA = 0.21;

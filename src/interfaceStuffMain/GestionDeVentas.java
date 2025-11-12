@@ -1,10 +1,11 @@
-package p9Main;
+package interfaceStuffMain;
 
 import utilidades.Utilidades;
-import p9Clases.*;
-import p9Exception.NegativeStockException;
 
 import java.util.ArrayList;
+
+import interfaceStuffClases.*;
+import interfaceStuffException.NegativeStockException;
 
 public class GestionDeVentas {
 

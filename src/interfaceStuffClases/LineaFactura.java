@@ -1,4 +1,4 @@
-package p9Clases;
+package interfaceStuffClases;
 
 public class LineaFactura {
 	private String code; // Product Code

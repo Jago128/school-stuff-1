@@ -1,4 +1,4 @@
-package p9Clases;
+package interfaceStuffClases;
 
 public enum Brand {
 	JUVER("Juver"), RAMON_BILBAO("Ramon Bilbao"), FANTA("Fanta"), BODEGAS_BILBAO("Bodegas Bilbao"),

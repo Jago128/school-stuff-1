@@ -1,4 +1,4 @@
-package p9Clases;
+package interfaceStuffClases;
 
 public class Refresco extends Articulo {
 	private String flavour;

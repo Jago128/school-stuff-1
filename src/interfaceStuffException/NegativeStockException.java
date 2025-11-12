@@ -1,4 +1,4 @@
-package p9Exception;
+package interfaceStuffException;
 
 public class NegativeStockException extends Exception {
 	private static final long serialVersionUID = 1L;
