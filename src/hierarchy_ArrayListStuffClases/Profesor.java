@@ -1,8 +1,8 @@
-package hierarchy_ArrayListStuffClasses;
+package hierarchy_ArrayListStuffClases;
 
 import java.util.ArrayList;
 
-public class Profesor implements Comparable<Profesor> {
+public class Profesor {
 	private String email;
 	private String name;
 	private String dept;
@@ -49,11 +49,6 @@ public class Profesor implements Comparable<Profesor> {
 
 	@Override
 	public String toString() {
-		return "Profesor [email=" + email + ", name=" + name + ", dept=" + dept + "]";
-	}
-
-	@Override
-	public int compareTo(Profesor order) {
-		return this.compareTo(order);
+		return "Profesor [email=" + email + ", name=" + name + ", dept=" + dept + ", Publicacion=" + p + "]";
 	}
 }

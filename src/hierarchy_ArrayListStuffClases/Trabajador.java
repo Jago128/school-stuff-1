@@ -1,6 +1,6 @@
-package hierarchy_ArrayListStuffClasses;
+package hierarchy_ArrayListStuffClases;
 
-public class Trabajador extends Persona {
+public class Trabajador extends PersonaP1 {
 	private double salario;
 
 	public Trabajador() {

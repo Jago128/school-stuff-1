@@ -1,4 +1,4 @@
-package hierarchy_ArrayListStuffClasses;
+package hierarchy_ArrayListStuffClases;
 
 public class Jefe extends Empleado {
 	private static int plus = 250;

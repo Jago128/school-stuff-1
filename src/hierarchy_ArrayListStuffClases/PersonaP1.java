@@ -1,16 +1,16 @@
-package hierarchy_ArrayListStuffClasses;
+package hierarchy_ArrayListStuffClases;
 
-public class Persona {
+public class PersonaP1 {
 	protected String dni;
 	protected String nombre;
 	public static int contador = 0;
 
-	public Persona() {
+	public PersonaP1() {
 		this.dni = "";
 		this.nombre = "";
 	}
 
-	public Persona(String d, String n) {
+	public PersonaP1(String d, String n) {
 		this.dni = d;
 		this.nombre = n;
 	}

@@ -1,6 +1,6 @@
-package hierarchy_ArrayListStuffClasses;
+package hierarchy_ArrayListStuffClases;
 
-public class Cliente extends Persona {
+public class Cliente extends PersonaP1 {
 	private int edad;
 
 	public Cliente() {

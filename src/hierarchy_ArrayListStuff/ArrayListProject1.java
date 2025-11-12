@@ -9,7 +9,7 @@ public class ArrayListProject1 {
 		ArrayList<String> a = new ArrayList<String>();
 		int menu;
 		String search;
-
+		
 		System.out.println("1. Añadir String");
 		System.out.println("2. Buscar String");
 		System.out.println("3. Borrar String");
@@ -64,7 +64,7 @@ public class ArrayListProject1 {
 			break;
 
 		case 5:
-			System.out.println("Adios!");
+			System.out.println("adios");
 			break;
 
 		}

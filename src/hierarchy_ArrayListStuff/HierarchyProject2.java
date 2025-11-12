@@ -3,7 +3,7 @@ package hierarchy_ArrayListStuff;
 import java.time.LocalDate;
 import java.util.*;
 
-import hierarchy_ArrayListStuffClasses.*;
+import hierarchy_ArrayListStuffClases.*;
 
 public class HierarchyProject2 {
 
@@ -45,6 +45,7 @@ public class HierarchyProject2 {
 				encontrado = true;
 			}
 		}
+
 		if (!encontrado) {
 			System.out.println("No existe");
 		}
@@ -84,6 +85,7 @@ public class HierarchyProject2 {
 				hay = true;
 			}
 		}
+
 		if (!hay) {
 			System.out.println("No se encontraron empleados con antiguedad superior a " + minima);
 		}
@@ -107,7 +109,6 @@ public class HierarchyProject2 {
 	public static void mostrarJefesDep(ArrayList<Empleado> a, Scanner teclado) {
 		String dep = null;
 		boolean encontrado = false;
-
 		System.out.println("Departamento:");
 		dep = teclado.next();
 
@@ -119,6 +120,7 @@ public class HierarchyProject2 {
 				}
 			}
 		}
+
 		if (!encontrado) {
 			System.out.println("No hay jefes en ese departamento");
 		}
@@ -134,7 +136,6 @@ public class HierarchyProject2 {
 			if (e instanceof Jefe) {
 				System.out.println(e.toString());
 			}
-
 		}
 	}
 
@@ -146,7 +147,6 @@ public class HierarchyProject2 {
 		for (Empleado e : a) {
 			System.out.println(e.toString());
 		}
-
 	}
 
 	public static int buscarPorDni(ArrayList<Empleado> a, String dni) {
@@ -160,8 +160,9 @@ public class HierarchyProject2 {
 	}
 
 	public static void introducir(ArrayList<Empleado> a, Scanner teclado) {
-		int pos = 0, mes_entrada, anio;
+		int pos = 0;
 		String dni, nom_empleado, nom_dep;
+		int mes_entrada, anio;
 		double incremento;
 
 		System.out.println("DNI:");
@@ -186,7 +187,6 @@ public class HierarchyProject2 {
 				a.add(new Jefe(dni, nom_empleado, mes_entrada, anio, incremento, nom_dep));
 			} else {
 				a.add(new Empleado(dni, nom_empleado, mes_entrada, anio, incremento));
-
 			}
 		}
 	}
@@ -216,7 +216,6 @@ public class HierarchyProject2 {
 				} else {
 					System.out.println("Debe introducir primero.");
 				}
-
 				break;
 				
 			case 3:
@@ -264,8 +263,7 @@ public class HierarchyProject2 {
 				break;
 				
 			default:
-				System.out.println("La opcion introducida no es correcta.");
-
+				System.out.println("Esa op no esta");
 			}
 		} while (op != 8);
 		teclado.close();
